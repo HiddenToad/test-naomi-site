@@ -32,9 +32,10 @@ p{
     overflow: hidden;
     background-color: #cccccc;
 }
-li{
+#menu-bar li{
     float: left;
-}
+} 
+
 li a{
     display: block;
     background-color: #cccccc;
@@ -48,14 +49,23 @@ li a:hover{
     background-color: #dedede;
 }
 
+.active{
+    background-color: #ababab !important;
+}
+
+li:not(#menu-bar li){
+    left: 25%;
+    font-size: 1.2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
 
 #profile-image{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-
-
 }
 
 @media only screen and (max-width: 630px){
