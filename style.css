@@ -82,10 +82,17 @@ li:not(#menu-bar li) a{
 @media only screen and (max-width: 630px){
     html{
         font-size: 15px !important;
+        background: rgb(93,93,93);
+        background: -moz-linear-gradient(0deg, rgba(93,93,93,1) 0%, rgba(241,239,239,1) 100%);
+        background: -webkit-linear-gradient(0deg, rgba(93,93,93,1) 0%, rgba(241,239,239,1) 100%);
+        background: linear-gradient(0deg, rgba(93,93,93,1) 0%, rgba(241,239,239,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.
+        gradient(startColorstr="#5d5d5d",endColorstr="#f1efef",GradientType=1);
+        
     }
 }
 
-@media only screen and (pointer: none), (pointer: coarse){
+@media only screen and (pointer: none), (pointer:coarse){
     li a:active{
         background-color: #dedede;
     }
