@@ -36,7 +36,7 @@ p{
     float: left;
 } 
 
-li a{
+#menu-bar li a{
     display: block;
     background-color: #cccccc;
     text-align: center;
@@ -45,7 +45,7 @@ li a{
     color: black;
 }
 
-li a:hover{
+#menu-bar li a:hover{
     background-color: #dedede;
 }
 
@@ -58,6 +58,11 @@ li:not(#menu-bar li){
     font-size: 1.2em;
     margin-left: 15%;
     margin-right: 15%;
+}
+
+li:not(#menu-bar li) a{
+    text-decoration: underline blue;
+    color: blue;
 }
 
 
