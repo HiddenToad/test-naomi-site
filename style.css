@@ -25,6 +25,7 @@ p{
     margin-right: 15%;
 }
 #menu-bar{
+    margin-top: -5%;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -40,9 +41,21 @@ li a{
     text-align: center;
     padding: 2vh 2vw;
     text-decoration: none;
+    color: black;
 }
+
 li a:hover{
     background-color: #dedede;
+}
+
+
+#profile-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+
 }
 
 @media only screen and (max-width: 630px){
