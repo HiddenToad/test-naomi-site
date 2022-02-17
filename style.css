@@ -11,6 +11,10 @@ html{
     left: 50%;
 }
 
+h1, p{
+    margin-top: 6vh;
+}
+
 h1{
     font-size: 2em;
 }
@@ -41,8 +45,14 @@ li a:hover{
     background-color: #dedede;
 }
 
-@media screen and (max-width: 1000px){
+@media only screen and (max-width: 630px){
     html{
         font-size: 15px !important;
+    }
+}
+
+@media only screen and (pointer: none, pointer: coarse){
+    li a:active{
+        background-color: #dedede;
     }
 }
