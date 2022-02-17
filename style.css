@@ -1,0 +1,48 @@
+*{
+    font-family: "Georgia", "Garamond", "Times New Roman";
+}
+
+html{
+    font-size: 20px;
+}
+
+.centered-text{
+    text-align: center;
+    left: 50%;
+}
+
+h1{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.2em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#menu-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #cccccc;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    background-color: #cccccc;
+    text-align: center;
+    padding: 2vh 2vw;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #dedede;
+}
+
+@media screen and (max-width: 1000px){
+    html{
+        font-size: 15px !important;
+    }
+}
