@@ -3,7 +3,7 @@
 }
 
 html{
-    background: linear-gradient(0deg, rgba(120,120,120,1) 0%, rgba(241,239,239,1) 100%);
+    background: linear-gradient(0deg, rgba(120,120,120,1) 0%, rgba(255,255,255,1) 100%);
     font-size: 20px;
     min-height: 100vh;
 }
@@ -72,7 +72,8 @@ li:not(#menu-bar li) a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 20%;
+    height: 20%;
 }
 
 iframe{
@@ -100,17 +101,20 @@ iframe{
         background: rgb(140,140,140);
         background: linear-gradient(0deg, rgba(140,140,140,1) 0%, rgba(241,239,239,1) 100%);
     }
-}
+    #profile-image{
 
-@media only screen and (max-width: 595px){
-    iframe{
-        
     }
 }
+
 
 @media only screen and (pointer: none), (pointer:coarse){
     li a:active{
         background-color: #dedede;
     }
+    iframe{
+        -webkit-transform: scale(.6);
+        transform: scale(.6);
+        -webkit-transform-origin: 0 0;
+        transform-origin: 0 0;
+    }
 }
-
